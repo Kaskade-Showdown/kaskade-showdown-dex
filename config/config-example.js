@@ -1,5 +1,5 @@
 exports.routes = {
-    root: 'pokemonshowdown.com',
-    client: 'play.pokemonshowdown.com',
-    replays: 'replay.pokemonshowdown.com',
+    root: 'api.kaskadeshowdown.com',
+    client: 'play.kaskadeshowdown.com',
+    replays: 'replay.kaskadeshowdown.com',
 };

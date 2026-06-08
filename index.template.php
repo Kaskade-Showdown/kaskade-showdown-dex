@@ -6,11 +6,11 @@
 	<title>Pok&eacute;dex - Pok&eacute;mon Showdown</title>
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
-	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css" />
+	<link rel="stylesheet" href="//play.kaskadeshowdown.com/style/font-awesome.css" />
 	<link rel="stylesheet" href="/theme/panels.css?" />
 	<link rel="stylesheet" href="/theme/main.css?" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/utilichart.css?" />
+	<link rel="stylesheet" href="//play.kaskadeshowdown.com/style/utilichart.css?" />
 	<link rel="stylesheet" href="/theme/pokedex.css?" />
 
 	<!-- Workarounds for IE bugs to display trees correctly. -->
@@ -24,12 +24,12 @@
 			<ul class="nav">
 				<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="/images/pokemonshowdownbeta.png" srcset="/images/pokemonshowdownbeta.png 1x, /images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
 				<li><a class="button cur" href="/">Pok&eacute;dex</a></li>
-				<li><a class="button" href="//replay.pokemonshowdown.com/">Replay</a></li>
+				<li><a class="button" href="//replay.kaskadeshowdown.com/">Replay</a></li>
 				<li><a class="button purplebutton" href="//smogon.com/dex/" target="_blank">Strategy</a></li>
 				<li><a class="button nav-last purplebutton" href="//smogon.com/forums/" target="_blank">Forum</a></li>
 			</ul>
 			<ul class="nav nav-play">
-				<li><a class="button greenbutton nav-first nav-last" href="http://play.pokemonshowdown.com/">Play</a></li>
+				<li><a class="button greenbutton nav-first nav-last" href="http://play.kaskadeshowdown.com/">Play</a></li>
 			</ul>
 			<div style="clear:both"></div>
 		</div>
@@ -67,20 +67,20 @@
 	<script src="/js/lib/backbone-min.js"></script>
 	<script src="/js/panels.js?"></script>
 
-	<script src="//play.pokemonshowdown.com/config/config.js?"></script>
-	<script src="//play.pokemonshowdown.com/js/battledata.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/search-index.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/pokedex.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/teambuilder-tables.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/learnsets.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/moves.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/abilities.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/items.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/formats-data.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/typechart.js?"></script>
-	<script src="//play.pokemonshowdown.com/data/aliases.js?"></script>
-	<script src="//play.pokemonshowdown.com/js/battle-dex-search.js?"></script>
-	<script src="//play.pokemonshowdown.com/js/oldclient/search.js?"></script>
+	<script src="//play.kaskadeshowdown.com/config/config.js?"></script>
+	<script src="//play.kaskadeshowdown.com/js/battledata.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/search-index.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/pokedex.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/teambuilder-tables.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/learnsets.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/moves.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/abilities.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/items.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/formats-data.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/typechart.js?"></script>
+	<script src="//play.kaskadeshowdown.com/data/aliases.js?"></script>
+	<script src="//play.kaskadeshowdown.com/js/battle-dex-search.js?"></script>
+	<script src="//play.kaskadeshowdown.com/js/oldclient/search.js?"></script>
 	<script src="/js/pokedex.js?"></script>
 	<script src="/js/pokedex-pokemon.js?"></script>
 	<script src="/js/pokedex-moves.js?"></script>
