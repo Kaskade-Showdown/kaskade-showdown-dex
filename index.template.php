@@ -3,10 +3,11 @@
 
 	<meta charset="utf-8" />
 
-	<title>Pok&eacute;dex - Pok&eacute;mon Showdown</title>
+	<title>Pok&eacute;dex - Kaskade Showdown</title>
+	<link rel="icon" href="/favicon.ico" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8" />
-	<link rel="stylesheet" href="//play.kaskadeshowdown.com/style/font-awesome.css" />
+	<link rel="stylesheet" href="//play.pokemonshowdown.com/style/font-awesome.css" />
 	<link rel="stylesheet" href="/theme/panels.css?" />
 	<link rel="stylesheet" href="/theme/main.css?" />
 	<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -22,11 +23,12 @@
 	<div class="pfx-topbar">
 		<div class="header">
 			<ul class="nav">
-				<li><a class="button nav-first" href="//pokemonshowdown.com/"><img src="/images/pokemonshowdownbeta.png" srcset="/images/pokemonshowdownbeta.png 1x, /images/pokemonshowdownbeta@2x.png 2x" alt="Pok&eacute;mon Showdown" width="146" height="44" /> Home</a></li>
+				<li><a class="button nav-first" href="//play.kaskadeshowdown.com/"><img src="/images/pokemonshowdownbeta.png" srcset="/images/pokemonshowdownbeta.png 1x, /images/pokemonshowdownbeta@2x.png 2x" alt="Kaskade Showdown" width="146" height="44" /> Home</a></li>
 				<li><a class="button cur" href="/">Pok&eacute;dex</a></li>
-				<li><a class="button" href="//replay.kaskadeshowdown.com/">Replay</a></li>
-				<li><a class="button purplebutton" href="//smogon.com/dex/" target="_blank">Strategy</a></li>
-				<li><a class="button nav-last purplebutton" href="//smogon.com/forums/" target="_blank">Forum</a></li>
+				<li><a class="button" href="//replay.kaskadeshowdown.com/">Replays</a></li>
+				<li><a class="button purplebutton" href="https://discord.gg/sFV7EabFU5">Discord</a></li>
+				<li><a class="button purplebutton" href="https://swirlingseasons.wiki.gg/">Wiki</a></li>
+				<li><a class="button nav-last purplebutton" href="https://docs.google.com/spreadsheets/d/1mUW2Ri72_5BzJaDHmGzaBMjDtyAW8nth6djeHCQqFHo/edit?usp=sharing">Google Sheet</a></li>
 			</ul>
 			<ul class="nav nav-play">
 				<li><a class="button greenbutton nav-first nav-last" href="http://play.kaskadeshowdown.com/">Play</a></li>
