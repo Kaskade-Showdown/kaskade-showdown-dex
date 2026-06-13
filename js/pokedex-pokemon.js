@@ -218,10 +218,17 @@ var PokedexPokemonPanel = PokedexResultPanel.extend({
 				changes += 'Type: ' + curGenTypes + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenTypes + '<br />';
 			}
 
-			var nextGenAbility = nextGenSpecies.abilities['0'];
-			var curGenAbility = curGenSpecies.abilities['0'];
-			if (curGenAbility !== nextGenAbility && curGenAbility !== 'No Ability') {
-				changes += 'Ability: ' + curGenAbility + ' <i class="fa fa-long-arrow-right"></i> ' + nextGenAbility + '<br />';
+			var abilitySlotLabels = {'0': '', '1': ' (2)', 'H': ' (H)'};
+			for (var slot in abilitySlotLabels) {
+				var curGenAbility = curGenSpecies.abilities[slot];
+				var nextGenAbility = nextGenSpecies.abilities[slot];
+				if (!curGenAbility && !nextGenAbility) continue;
+				if (curGenAbility !== nextGenAbility && curGenAbility !== 'No Ability') {
+					var slotLabel = abilitySlotLabels[slot];
+					var from = curGenAbility || '(none)';
+					var to = nextGenAbility || '(none)';
+					changes += 'Ability' + slotLabel + ': ' + from + ' <i class="fa fa-long-arrow-right"></i> ' + to + '<br />';
+				}
 			}
 
 			for (var i in BattleStatNames) {
